@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey form</title>
+    <style>
+        body{
+            background-color: #05c46b;
+            font-family: Verdana, Tahoma, sans-serif;
+            text-align: center;
+        }
+
+        form{
+            background-color: burlywood;
+            max-width:80%;
+            margin:50px auto;
+            padding: 30px 20px;
+            
+        }
+
+        .form-control{
+            text-align: center;
+            margin-bottom: 25px;
+        }
+
+        .form-control label{
+            display:block;
+            margin-bottom: 10px;
+        }
+
+        .form-control input[type="checkbox"]{
+            display: inline;
+            width: auto;
+            text-align: left;
+        }
+
+        button{
+            border: 1px solid #777;
+            border-radius: 5px;
+            font-size: 20px;
+            width: 20%;
+            margin-top: 50px;
+            margin-bottom: 20px;
+            background-color: #777;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Survey Form</h1>
+    <form>
+        <div class="form-control">
+            <label for="name" id="label-name">
+                Name :
+            </label>
+            <input type="text" 
+                id="name" 
+                placeholder="Enter your name here" />
+        </div>
+        <div class="form-control">
+            <label for="email" id="label-email">
+                Email :
+            </label>
+            <input type="email" 
+                id="email" 
+                placeholder="Enter your email id here" />
+        </div>
+        <div class="form-control">
+            <label for="age" id="label-age">
+                Age :
+            </label>
+            <input type="text" 
+                id="age" 
+                placeholder="Enter your age  here" />
+        </div>
+        <div class="form-control">
+            <label for="role" id="label-role">
+                Which option best describes you ?
+            </label>
+            <select name="role" id="role">
+                <option value="student">Student</option>
+                <option value="Intern">Intern</option>
+                <option value="Professional">Professional</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+        <div class="form-control">
+            <label> Languages and frameworks Known
+                <small>(Check all that apply)</small>:
+            </label>
+            <label for="int1">
+                <input type="checkbox" name="inp">C</input>
+            </label>
+            <label for="int2">
+                <input type="checkbox" name="inp">C++</input>
+            </label>
+            <label for="int3">
+                <input type="checkbox" name="inp">C#</input>
+            </label>
+            <label for="int4">
+                <input type="checkbox" name="inp">Java</input>
+            </label>
+            <label for="int5">
+                <input type="checkbox" name="inp">JavaScript</input>
+            </label>
+            <label for="int6">
+                <input type="checkbox" name="inp">PHP</input>
+            </label>
+            <label for="int7">
+                <input type="checkbox" name="inp">Python</input>
+            </label>
+            <label for="int8">
+                <input type="checkbox" name="inp">React</input>
+            </label>
+            <label for="int9">
+                <input type="checkbox" name="inp">Django</input>
+            </label>
+        </div>
+        <div class="form-control">
+            <label for="comment">
+                Any Comments or Suggestions
+            </label>
+            <textarea name="comment" 
+                id="comment" 
+                placeholder="Leave Your Comment here">
+            </textarea>
+        </div>
+        <button type="submit" value="submit">Submit</button>
+    </form>
+</body>
+</html>
