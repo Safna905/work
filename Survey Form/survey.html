@@ -34,12 +34,13 @@
             display:inline;
             width: auto;
             text-align: left;
-            /* padding-left: 50px; */
         }
 
         .alignment label {
-            display: block;
-            
+            display: flex;
+            gap: 3px;
+            align-items: center;
+           padding-left: 50%;
         }
 
         button{
@@ -92,10 +93,11 @@
                 <option value="other">Other</option>
             </select>
         </div>
-        <div class="form-control alignment">
+        <div class="form-control ">
             <label> Languages and frameworks Known
                 <small>(Check all that apply)</small>:
             </label>
+            <div class="alignment">
             <label for="int1">
                 <input type="checkbox" name="inp">C</input>
             </label>
@@ -123,6 +125,7 @@
             <label for="int9">
                 <input type="checkbox" name="inp">Django</input>
             </label>
+        </div>
         </div>
         <div class="form-control">
             <label for="comment">
