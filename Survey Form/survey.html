@@ -26,21 +26,27 @@
         }
 
         .form-control label{
-            display:block;
+            display:inline;
             margin-bottom: 10px;
         }
 
         .form-control input[type="checkbox"]{
-            display: inline;
+            display:inline;
             width: auto;
             text-align: left;
+            /* padding-left: 50px; */
+        }
+
+        .alignment label {
+            display: block;
+            
         }
 
         button{
             border: 1px solid #777;
             border-radius: 5px;
             font-size: 20px;
-            width: 20%;
+            width: auto;
             margin-top: 50px;
             margin-bottom: 20px;
             background-color: #777;
@@ -86,7 +92,7 @@
                 <option value="other">Other</option>
             </select>
         </div>
-        <div class="form-control">
+        <div class="form-control alignment">
             <label> Languages and frameworks Known
                 <small>(Check all that apply)</small>:
             </label>
