@@ -1,0 +1,68 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.head h1{
+   color:rgba(7, 7, 7);
+   font-size: 100px;
+   text-align: center;
+   margin-top: 200px;
+}
+
+
+.container{
+    height:100%;
+    width: 100%;
+    background-image: url('image.jpg');
+    background-size: cover;
+
+}
+
+.nav{
+    display: flex;
+    height: 150px;
+    align-items: center;
+    background-color: black;
+    opacity: 1;
+    }
+
+.nav p {
+    color: white;
+    padding-left: 210px;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+    padding-right: 150px;
+    color: white;
+}
+
+.background {
+    background-image: url('business-connection-contact-us-call-center-customer-service-concept-icon-mobile-phone-email-envelope-telephone-e-mail-address-hand-pushing-wooden-block-with-contact-us-symbol_256259-1516.webp');
+    background-size: cover;
+    width: auto;
+    height: 600px;
+}
+
+.background h1 {
+    color:rgb(19, 18, 18);
+   font-size: 100px;
+   text-align: center;
+   font-family: cursive;
+}
+
+footer{
+    color: white;
+    background-color: black;
+    opacity: 1;
+    text-align: center;
+    padding: 10px;
+    margin: 300px 0px 0px;
+}
