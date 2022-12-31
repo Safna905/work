@@ -13,18 +13,18 @@
 
 
 .container{
-    height:100%;
-    width: 100%;
-    background-image: url('image.jpg');
+    /* height:auto;
+    width: 100%; */
+    background-image: url('./images/image.jpg');
     background-size: cover;
-    top: 0;
+    /* top: 0; */
   
 
 }
 
 .navbar{
     display: flex;
-    height: 50px;
+    height: 60px;
     align-items: center;
     background-color: black;
     opacity: 1;
@@ -53,10 +53,10 @@
   
 
 .background {
-    background-image: url('business-connection-contact-us-call-center-customer-service-concept-icon-mobile-phone-email-envelope-telephone-e-mail-address-hand-pushing-wooden-block-with-contact-us-symbol_256259-1516.webp');
+    background-image: url('./images/business-connection-contact-us-call-center-customer-service-concept-icon-mobile-phone-email-envelope-telephone-e-mail-address-hand-pushing-wooden-block-with-contact-us-symbol_256259-1516.webp');
     background-size: cover;
     width: auto;
-    height: 600px;
+    height: 100vh;
 }
 
 .background h1 {
@@ -64,6 +64,7 @@
    font-size: 100px;
    text-align: center;
    font-family: cursive;
+   padding-top: 50px;
 }
 
 footer{
@@ -84,34 +85,32 @@ footer{
 }
 
 .menu_back {
-    background-image: url('1397765.webp');
+    background-image: url('./images/1397765.webp');
     background-size: cover;
     width: auto;
     height: auto;
 }
 
-.menu-navbar {
-
-    display: flex;
-    height: 50px;
-    align-items: center;
-    background-color: black;
-    opacity: 1;
-    /* position: fixed; */
-    top:0;
-    width:100%
-}
-
 div.menu-navbar {
+
+    display:inline-block;
+    align-items: center;
+    opacity: 1;
+    width:100%;
     background-color: white;
     padding-left: 300px;
-    height: 70px;
+    height: 130px;
+}
+div.menu-navbar img {
+    padding: auto;
+    padding-top:18px;
 }
 
 div.menu-head {
     color: white;
     text-align: center;
     padding: 100px;
+    padding-top: 30px;
 }
 div.menu-head p {
     padding: 50px;
