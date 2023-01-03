@@ -150,17 +150,60 @@ button.cta i {
 }
 
 .item img:hover {
-    width: 70px;
+    width: 120px;
 }
 
 .item .color-selector {
     position: absolute;
     top: 0;
     left: 50%;
-    background-color: #ff0073;
+    background-color: #0c0c0c;
     width: 16px;
     height: 16px;
     transform: translate(-50%, -50%);
-    /* border: 2px solid #fff; */
-    /* border-radius: 50%; */
+    border: 2px solid #fff;
+    border-radius: 50%;
+}
+
+.item.brown .color-selector {
+    background-color: #ad6464;
+}
+
+.item.mix .color-selector {
+    background-color: #4e3b3b;
+}
+
+.item:first-child {
+    transform: translate(-50%);
+}
+
+.item:last-child {
+    transform: translate(50%);
+}
+
+.item.active img {
+    width: 130px;
+}
+
+.item.active .color-selector {
+    width: 28px;
+    height: 28px;
+}
+
+.item.active {
+    min-width: 220px;
+}
+
+.additional-info {
+    background-color: #fff;
+    border-radius: 16px;
+    position: absolute;
+    left: 50%;
+    width: 100%;
+    text-align: right;
+    padding: 16px 24px;
+    line-height: 28px;
+    font-size: 1.1em;
+    letter-spacing: 0.5px;
+    font-weight: bold;
 }
